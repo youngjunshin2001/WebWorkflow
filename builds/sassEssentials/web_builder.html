@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Analgesics</title>
+</head>
+<body>
+
+<div class=" mybackground myjumbotron mb-0" id="jumbotron">
+  <div class="mycontainer">
+    <h1>Analgesics</h1>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+  </div>
+</div>
+
+<nav class="nav navbar navbar-dark navbar-fixed-top navbar-expand-md" style="background-color: #032C4D">
+    <button class="navbar-toggler" type="button" 
+      data-toggle="collapse" data-target="#myTogglerNav"
+      aria-controls="myTogglerNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="myTogglerNav">
+    <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link active" href="index.html">Home</a>
+
+        <div class="dropdown">
+          <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" 
+          id="MissionDropdown1" aria-haspopup="true" aria-expended="false" href="#">My Interests</a>
+            <div class="dropdown-menu" aria-labelledby="MissionDropdown1">
+              <a class="dropdown-item" href="#">Bootstrap</a>
+              <a class="dropdown-item" href="#">Sass</a>
+              <a class="dropdown-item" href="#">Node JS</a>
+            </div>
+        </div><!-- cdropdown -->
+        <div class="dropdown">
+          <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" 
+          id="MissionDropdown2" aria-haspopup="true" aria-expended="false" href="#">Drug Discovery</a>
+            <div class="dropdown-menu" aria-labelledby="MissionDropdown2">
+              <a class="dropdown-item" href="protin_kinase.html">Protein Kinase</a>
+              <a class="dropdown-item" href="AKT_PKB_signaling.html">Akt/PKB signaling pathway</a>
+              <a class="dropdown-item" href="mTOR_inhibitors.html">mTOR inhibitors</a>
+			  <a class="dropdown-item" href="analgesics.html">Analgesics</a>
+			  <a class="dropdown-item" href="G_protein_coupled_receptor.html">GPCRs</a>
+            </div>
+        </div><!-- cdropdown -->
+        <div class="dropdown">
+          <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" 
+          id="MissionDropdown3" aria-haspopup="true" aria-expended="false" href="#">Photography</a>
+            <div class="dropdown-menu" aria-labelledby="MissionDropdown3">
+              <a class="dropdown-item" href="#">Mission1</a>
+              <a class="dropdown-item" href="#">Mission2</a>
+              <a class="dropdown-item" href="#">Mission3</a>
+            </div>
+        </div><!-- cdropdown -->
+      <a class="nav-item nav-link" href="#">Testimonials</a>
+    </div><!-- navbar nav-->
+    </div><!-- collapse-->
+</nav>		
+
+<div class="container-fluid">
+	<div class="row">
+	<div class="col-2 bg-success">
+	
+    </div><!-- col-->
+		
+	<div class="col-md-10">
+	<section class="text-justify">
+		<h1>Gulp-sass  workflow</h1>
+        <ul>
+          <li>npm init</li>
+          <li>(sudo) npm install gulp-cli -g</li>
+          <li>npm install gulp -D</li>
+          <li>touch gulpfile.js</li>
+          <li>npm install –save -dev gulp-ruby-sass</li>
+          <li>npm install –save -dev gulp-ruby-sourcemaps</li>
+          <li>npm install –save -dev  gulp-ruby-sass-webserver</li>
+          <li>npm install jshint gulp-jshint –save -dev</li>
+        </ul>
+        <p>Make sure you have these installed</p>
+        <ul>
+          <li>node.js</li>
+          <li>git</li>
+        </ul>
+        <p>Clone this repository into your local machine using the terminal  (mac) or Gitbash (PC) &gt; git clone CLONEURL<br>
+          CD to the folder cd FOLDERNAME<br>
+          Run &gt; npm install to install the project dependencies<br>
+          Run &gt; gulp to start </p>
+        <h1>Emment synthex</h1>
+        <ul>
+          <li>ul&gt;ui</li>
+          <li>div+p+bq</li>
+          <li>div+div&gt;p&gt;span+em^bq</li>
+          <li>div(header.ul.li*2)+footer&gt;p</li>
+          <li>div&gt;dl&gt;(dt+dd&gt;*3)+footer&gt;p</li>
+          <li>ul&gt;li*5</li>
+          <li>ul&gt;li.sample$*5</li>
+          <li>h$[title=topic$]{headline $}*3</li>
+          <li>ul&gt;li.item$$$*5</li>
+          <li>ul&gt;li.item$-*5</li>
+          <li>ul&gt;li.item$@3*5</li>
+          <li>#header</li>
+          <li>.title</li>
+          <li>form#search.wide</li>
+          <li>p.class1.class2.class3</li>
+          <li>table&gt;.row&gt;.col</li>
+        </ul>
+        <h1>grunt-sass</h1>
+        <p>Ruby to get Sass, and NodeJs to get npm, so we can work with  Grunt.</p>
+        <ul>
+          <li>npm install -g grunt-cli</li>
+          <li>npm init </li>
+          <li>npm install grunt-contrib-sass</li>
+          <li>npm install grunt-contrib-watch</li>
+        </ul>
+        <p>&lt;Gruntfile.js&gt;<br>
+          module.exports = function(grunt) {<br>
+          grunt.initConfig({<br>
+          pkg: grunt.file.readJSON('package.json'),<br>
+          sass: {<br>
+          dist: {<br>
+          files: {<br>
+          'style/style.css' : 'sass/style.scss'<br>
+          }<br>
+          }<br>
+          },<br>
+          watch: {<br>
+          css: {<br>
+          files: '**/*.scss',<br>
+          tasks: ['sass']<br>
+          }<br>
+          }<br>
+          });<br>
+          grunt.loadNpmTasks('grunt-contrib-sass');<br>
+          grunt.loadNpmTasks('grunt-contrib-watch');<br>
+          grunt.registerTask('default',['watch']);<br>
+          }</p>
+<h1>Git Syntax  </h1>
+        <table class="mytable" border="1" cellspacing="0" cellpadding="0" width="618">
+          <tr>
+            <td width="204" valign="top"><p align="center" class="font-weight-bold">Getting help:</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git help command        </p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>or</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git command --help      </p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>Show help for a command</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>Repository creation:</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git init               </p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>Create a repository in the current directory</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git clone url                  </p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>Clone a remote repository into a subdirectory</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>File operations:</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git add path                  </p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>Add file or files in directory recursively</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git rm path                   </p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>Remove file or directory from the working tree</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>&nbsp;</p></td>
+            <td width="102" valign="top"><p>-f</p></td>
+            <td width="312" valign="top"><p>Force deletion of file(s) from disk</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git mv path destination </p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>Move file or directory to new location</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>&nbsp;</p></td>
+            <td width="102" valign="top"><p>-f</p></td>
+            <td width="312" valign="top"><p>Overwrite existing destination files</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git checkout [rev] file    </p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>Restore file from current branch or revision</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>&nbsp;</p></td>
+            <td width="102" valign="top"><p>-f</p></td>
+            <td width="312" valign="top"><p>Overwrite uncommitted local changes</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p class="font-weight-bold" align="center">Working tree:</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git status</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>Show status of the working tree</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git diff [path]</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>Show diff of changes in the working tree</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git diff HEAD path</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>Show diff of stages and unstaged changes</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git add path</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>Stage file for commit</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git reset HEAD path</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>Unstage file for commit</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git commit</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>Commit files that has been staged (with git-add)</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>&nbsp;</p></td>
+            <td width="102" valign="top"><p>-a</p></td>
+            <td width="312" valign="top"><p>Automatically stage all modified files</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git reset --soft HEAD^</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>Undo commit &amp; keep changes in the working tree</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git reset --hard HEAD^</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>Reset the working tree to the last commit</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git clean</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>Clean unknown files from the working tree</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p class="font-weight-bold" align="center">Examining History:</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git log [path]</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>View commit log, optionally for specific path</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git log [from[..to]]</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>View commit log for a given revision range</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>&nbsp;</p></td>
+            <td width="102" valign="top"><p>--stat</p></td>
+            <td width="312" valign="top"><p>List diffstat for each revision</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>&nbsp;</p></td>
+            <td width="102" valign="top"><p>-S'pattern'</p></td>
+            <td width="312" valign="top"><p>Search history for changes matching pattern</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git blame [file]              </p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>Show file annotated with line modifications</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p class="font-weight-bold" align="center">Remote repositories - remotes:</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git fetch [remote]</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>Fetch changes from a remote repository</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git pull [remote]</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>Fetch and merge changes from a remote repository</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git push [remote]</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>Push changes to a remote repository</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git remote</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>List remote repositories</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git remote add remote url</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>Add remote to list of tracked repositories</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>Branches:</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git checkout branch</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>Switch working tree to branch</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>&nbsp;</p></td>
+            <td width="102" valign="top"><p> -b branch</p></td>
+            <td width="312" valign="top"><p>Create branch before switching to it</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git branch</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>List local branches</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git branch -f branch rev</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>Overwrite existing branch, start from revision</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git merge branch</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>Merge changes from branch</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>Exporting and importing:</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git apply - &lt; file</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>Apply patch from stdin</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git format-patch from[..to]</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>Format a patch with log message and diffstat</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git archive rev &gt; file</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>Export snapshot of revision to file</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>&nbsp;</p></td>
+            <td width="102" valign="top"><p>--prefix=dir/</p></td>
+            <td width="312" valign="top"><p>Nest all files in the snapshot in directory</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>&nbsp;</p></td>
+            <td width="102" valign="top"><p>--format=[zip]</p></td>
+            <td width="312" valign="top"><p>Specify archive format to use: tar or zip</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p class="font-weight-bold" align="center">Tags:</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>git tag name [revision]</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>Create tag for a given revision</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>&nbsp;</p></td>
+            <td width="102" valign="top"><p> -s</p></td>
+            <td width="312" valign="top"><p>Sign tag with your private key using GPG</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>&nbsp;</p></td>
+            <td width="102" valign="top"><p>-l [pattern]</p></td>
+            <td width="312" valign="top"><p>List tags, optionally matching pattern</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p class="font-weight-bold" align="center">File status flags:</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>M modified</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>File has been modified</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>C copy-edit</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>File has been copied and modified</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>R rename-edit</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>File has been renamed and modified</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>A added</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>File has been added</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>D deleted</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>File has been deleted</p></td>
+          </tr>
+          <tr>
+            <td width="204" valign="top"><p>U unmerged</p></td>
+            <td width="102" valign="top"><p>&nbsp;</p></td>
+            <td width="312" valign="top"><p>File has conflicts after a merge</p></td>
+          </tr>
+        </table>
+    </section>	
+    </div><!-- col-->	
+	</div><!-- row-->
+	</div><!-- container-fluid-->	
+	
+<footer class="container-fluid bg-dark">
+ <p>Footer Text</p>
+</footer>
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

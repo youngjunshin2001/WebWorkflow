@@ -1,0 +1,39 @@
+@import "variables";
+@import "normalize";
+@import "mixins";
+@import "base";
+@import "interface";
+
+@import "modules/backgrounds";
+@import "modules/media";
+@import "modules/tables";
+@import "modules/navigation";
+
+  .img {
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  .body {
+  	margin: 0;
+  	padding: 0;
+  	font-size: 1em;
+  	font-family: $font-main;
+    background-color: $offwhite;
+  }
+  .dropdown-item {
+  	font-family: $font-main;
+  	font-size: 1em;
+  	background-color: $yellow;
+  }
+  .navbar-brand {
+  	font-family: $font-main;
+  	font-size: 1em;
+  	color: $yellow;
+  }
+
